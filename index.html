@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <section class="big-container">
+    <div class="container">
+        <header class="header">
+            <nav>
+                <ul class="menu" id="menu">
+                    <li><a href="#" id="c1">Capítulo 1</a></li>
+                    <li><a href="#" id="c2">Capítulo 2</a></li>
+                    <li><a href="#" id="c3">Capítulo 3</a></li>
+                    <li><a href="#" id="c4">Capítulo 4</a></li>
+                    <li><a href="#" id="c5">Capítulo 5</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <section class="topbar">
+                <div class="container">
+                    <h2>Blog de Andrea</h2>
+                    <p>Actualizando sobre los acontecimientos universitarios</p>
+                    <div class="sidebar">
+                            <img src="/images/profile.png">
+                            <div id="descripcion">
+                                <p>Andrea Zaldaña</p>
+                            </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+    
+
+    <section class="entrada">
+        <div class="container post">
+            <h2>Publicaciones</h2>
+            <ul>
+                <li>
+                    <article id="capitulo1">
+                        <img src="/images/1.JPG" alt="">
+                        <h3>BEGIN</h3>
+                        <p>Este es el primer capítulo de "Una visión perversa"", el cual nos tomo a todos de sorpresa.
+                            Recibimos la misión, por parte de un mensajero anónimo, de resolver una serie
+                            de ejercicios para poder salvar la universidad. El primer ejercicio que corresponde al día lunes, cuando todo empezó, consiste en
+                            crear una funcion en lenguaje psql que sea capaz de validar un DUI, es decir, indicar
+                            si el DUI es verdadero o falso.
+                        </p>
+                        <p>El problema anterior se resuelve utilizando un algoritmos que nos permite corroborar si el último dígito
+                            del DUI dado es válido, al realizar la suma de las multiplicaciones de sus dígitos por la posición que les
+                            correspone, algo así: suma  = (9*0)+(8*1)+(7*7)+(6*7)+(5*1)+(4*9)+(3*6)+(2*7).
+                            Luego, a 10 se le resta el residuo resultante de dividir lo anterior entre 10, y si el resultado es igual al
+                            último dígito, el DUI es valido. 
+                        </p>
+          
+                    </article>
+                </li>
+                <li>
+                    <article id="capitulo2">
+                        <img src="/images/2.JPG" alt="">
+                        <h3>O-O-O</h3>
+                        <p>Luego de haber sobrevivido el primer día, recibimos otro mensaje al finalizar exitosamente
+                            nuestro trabajo: crear una funcion que pueda evitar tener problemas entre los miembros
+                            representantes de departamento y aquellos que trabajan en un departamento específico.
+                            Basicamente la función debe denegar la inserción o actualización de un departamento con
+                            un representante que no trabaje para dicho departamento.
+                        </p>
+                        <p>
+                            La resolución en psql de este problema, en resumen, se realiza de la siguiente manera:
+                            primero, debe comprobarse que si se ingresa o actualiza un departamento ya existe un
+                            representante designado para dicho departamento o si bien, debe de agregarse. 
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article id="capitulo3">
+                        <img src="/images/3.jpg" alt="">
+                        <h3>MINUS MONOCROMO</h3>
+                        <p>El día anterior, recibimos un mensaje de anónimo diciendo que nos presentáramos en un lugar
+                            específico para así tener acceso a la siguiente pista, la cual nos daría nuestro siguiente 
+                            problema. Lo hicimos y nos encontramos no solo con más indicaciones, sino con un audio
+                            que nos explicaba los perversos plane de Ale.
+                        </p>
+                        <p>Para este capítulo se nos indica que existe una incoherencia entre las clasificaciones de la tabla miemmbro,
+                            sus subclases y atributos. Se debe de crear una función que compruebe que el departamento expresado en el
+                            atributo coincida con la existencia del miembro en la subclase correcta.
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article id="capitulo4">
+                        <img src="/images/4.jpg" alt="">
+                        <h3>CUMULONIMBUS</h3>
+                        <p>Todo iba bien, hasta que de nuevo, recibimos un mensaje de vídeo de Ale, diciendo que nada
+                            acabaría con sus planes. La verdad que nos tomó de sorpresa, pues estábamos tranquilos en la clase
+                            cuando de repente... ¡Apareció un dron! Pero no era un simple dron, sino que tenía un mensaje sobre él,
+                            otro código QR. Al abrir el mensaje, nos daban nuestra misión, probablemente la más importante: asegurar
+                            la independencia de los miembros de subclase de proyectos y validar objetos de la superclase que tengan código
+                            de tipo 'O'.
+                        </p>
+                        <p>Para esto, primero se debe corroborar a través
+                            de un DELETE FROM que cada vez que un miembro se elimina de la tabla, también se eliminen los proyectos
+                            designados a él.</p>
+                    </article>
+                </li>
+                <li>
+                    <article id="capitulo5">
+                        <img src="/images/5.JPG" alt="">
+                        <h3>FINAL CHAPTER: COMMIT</h3>
+                        <p>En este capítulo no hay problema que resolver, es el desenlace de todo, se revela la identidad de Ale
+                            y así jamás será capaz de llevar a cabo su plan.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+</section>
+    <footer>
+        <p>Copyright 2019 Andrea Zaldaña. All Rights Reserved</p>
+
+    </footer>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
